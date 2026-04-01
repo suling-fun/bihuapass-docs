@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenORM Documentation - Intelligent Text Restructuring Platform</title>
+    <meta name="description" content="OpenORM developer documentation. Open-source inspired intelligent text restructuring platform. API reference for text transformation, structure analysis, and content reformatting.">
+    <meta name="keywords" content="OpenORM, text restructuring, AI text processing, content transformation, intelligent rewriting, API">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif; line-height: 1.6; color: #24292e; background: #fff; }
+        a { color: #16a34a; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .header { background: linear-gradient(135deg, #16a34a 0%, #22c55e 50%, #4ade80 100%); color: #fff; padding: 3rem 1.5rem; }
+        .header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .header p { font-size: 1.1rem; opacity: 0.92; max-width: 640px; }
+        .container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .badge { display: inline-block; background: #dcfce7; color: #16a34a; font-size: 0.75rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 12px; margin-bottom: 1rem; }
+        h2 { font-size: 1.4rem; margin: 2.5rem 0 1rem; padding-bottom: 0.4rem; border-bottom: 1px solid #eaecef; color: #24292e; }
+        h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+        p, li { font-size: 0.95rem; color: #444d56; }
+        ul { padding-left: 1.5rem; margin: 0.5rem 0 1rem; }
+        li { margin-bottom: 0.35rem; }
+        pre { background: #1e1e2e; color: #cdd6f4; padding: 1.2rem; border-radius: 8px; overflow-x: auto; margin: 1rem 0; font-size: 0.85rem; line-height: 1.5; }
+        code { font-family: 'SF Mono', 'Fira Code', Consolas, monospace; }
+        .inline-code { background: #f0fdf4; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.85rem; color: #16a34a; }
+        .feature-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1rem 0; }
+        .feature { border: 1px solid #e1e4e8; border-radius: 8px; padding: 1.2rem; }
+        .feature h3 { margin-top: 0; color: #16a34a; font-size: 1rem; }
+        .feature p { font-size: 0.88rem; }
+        .cta-box { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 1.5rem; margin: 2rem 0; text-align: center; }
+        .cta-box a.btn { display: inline-block; background: #22c55e; color: #fff; padding: 0.6rem 1.5rem; border-radius: 6px; font-weight: 600; margin-top: 0.5rem; }
+        .cta-box a.btn:hover { background: #16a34a; text-decoration: none; }
+        .footer { border-top: 1px solid #eaecef; padding: 2rem 1.5rem; text-align: center; color: #6a737d; font-size: 0.85rem; margin-top: 3rem; }
+        table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+        th { padding: 0.5rem; text-align: left; border-bottom: 2px solid #e1e4e8; }
+        td { padding: 0.5rem; border-bottom: 1px solid #eaecef; }
+        .note { background: #f0fdf4; border-left: 4px solid #22c55e; padding: 0.8rem 1rem; margin: 1rem 0; border-radius: 0 4px 4px 0; font-size: 0.9rem; }
+        @media (max-width: 600px) {
+            .header { padding: 2rem 1rem; }
+            .header h1 { font-size: 1.5rem; }
+            .container { padding: 1.5rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div style="max-width:860px;margin:0 auto;">
+            <h1>OpenORM Documentation</h1>
+            <p>Intelligent text restructuring platform. Transform, analyze, and reformat content with powerful APIs designed for seamless integration.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <span class="badge">Open API v2.0</span>
+
+        <h2>Introduction</h2>
+        <p>OpenORM is an intelligent text restructuring platform that helps developers transform and optimize content programmatically. Whether you need to restructure paragraphs, improve sentence flow, or reformat content for different audiences, OpenORM provides the tools. Explore the full platform at <a href="https://bihuapass.com">bihuapass.com</a>.</p>
+
+        <div class="note">
+            <strong>New:</strong> OpenORM v2.0 introduces paragraph-level restructuring and multi-language support. <a href="https://bihuapass.com">Learn more at bihuapass.com</a>.
+        </div>
+
+        <h2>Features</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <h3>Structure Analysis</h3>
+                <p>Parse and understand document structure including headings, paragraphs, lists, and semantic sections for targeted transformations.</p>
+            </div>
+            <div class="feature">
+                <h3>Paragraph Restructuring</h3>
+                <p>Intelligently reorganize paragraph structures while maintaining logical flow and argument coherence across the document.</p>
+            </div>
+            <div class="feature">
+                <h3>Sentence Reflow</h3>
+                <p>Rebuild sentence structures to improve readability, vary cadence, and eliminate repetitive patterns without changing meaning.</p>
+            </div>
+            <div class="feature">
+                <h3>Multi-Language</h3>
+                <p>Full support for Chinese and English text processing with language-aware restructuring algorithms and tokenization.</p>
+            </div>
+        </div>
+
+        <h2>Getting Started</h2>
+        <p>Create a free account at <a href="https://bihuapass.com">bihuapass.com</a> and generate your API key from the developer dashboard.</p>
+
+        <h3>Install the SDK</h3>
+<pre><code><span style="color:#6c7086"># Python</span>
+pip install openorm
+
+<span style="color:#6c7086"># Node.js</span>
+npm install openorm-sdk</code></pre>
+
+        <h3>Basic Text Restructuring</h3>
+<pre><code><span style="color:#89b4fa">from</span> openorm <span style="color:#89b4fa">import</span> OpenORMClient
+
+client = OpenORMClient(api_key=<span style="color:#a6e3a1">"your-api-key"</span>)
+
+<span style="color:#6c7086"># Restructure a paragraph</span>
+result = client.restructure(
+    text=<span style="color:#a6e3a1">"""The rapid advancement of AI technology has led to
+    significant changes in content creation. Many organizations
+    now use AI to generate initial drafts."""</span>,
+    mode=<span style="color:#a6e3a1">"natural"</span>,
+    preserve_keywords=True
+)
+
+print(result.restructured_text)
+print(f<span style="color:#a6e3a1">"Similarity score: {result.similarity:.0%}"</span>)</code></pre>
+
+        <h3>Document-Level Processing</h3>
+<pre><code><span style="color:#6c7086"># Process an entire document with structure preservation</span>
+doc_result = client.process_document(
+    text=long_document,
+    options={
+        <span style="color:#a6e3a1">"preserve_headings"</span>: True,
+        <span style="color:#a6e3a1">"restructure_depth"</span>: <span style="color:#a6e3a1">"paragraph"</span>,  <span style="color:#6c7086"># or "sentence"</span>
+        <span style="color:#a6e3a1">"language"</span>: <span style="color:#a6e3a1">"auto"</span>
+    }
+)
+
+<span style="color:#89b4fa">for</span> section <span style="color:#89b4fa">in</span> doc_result.sections:
+    print(f<span style="color:#a6e3a1">"[{section.type}] {section.text[:80]}..."</span>)</code></pre>
+
+        <h2>API Reference</h2>
+        <table>
+            <thead>
+                <tr><th>Method</th><th>Endpoint</th><th>Description</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><span class="inline-code">POST</span></td><td><span class="inline-code">/api/v1/restructure</span></td><td>Restructure text content</td></tr>
+                <tr><td><span class="inline-code">POST</span></td><td><span class="inline-code">/api/v1/analyze</span></td><td>Analyze document structure</td></tr>
+                <tr><td><span class="inline-code">POST</span></td><td><span class="inline-code">/api/v1/reflow</span></td><td>Sentence-level reflow</td></tr>
+                <tr><td><span class="inline-code">POST</span></td><td><span class="inline-code">/api/v1/document</span></td><td>Full document processing</td></tr>
+                <tr><td><span class="inline-code">GET</span></td><td><span class="inline-code">/api/v1/languages</span></td><td>List supported languages</td></tr>
+            </tbody>
+        </table>
+
+        <div class="cta-box">
+            <p style="font-size:1rem;color:#24292e;font-weight:500;">Build smarter content workflows</p>
+            <p style="font-size:0.9rem;color:#444d56;">Free tier available. Start restructuring text with OpenORM in minutes.</p>
+            <a class="btn" href="https://bihuapass.com">Get API Key at bihuapass.com</a>
+        </div>
+
+        <h2>Use Cases</h2>
+        <ul>
+            <li><strong>Content Publishing:</strong> Restructure drafts to improve readability before publication</li>
+            <li><strong>Academic Writing:</strong> Reorganize research papers for better logical flow</li>
+            <li><strong>Localization:</strong> Adapt content structure for different language conventions</li>
+            <li><strong>SEO Optimization:</strong> Restructure content to improve search engine readability</li>
+        </ul>
+
+        <h2>Support & Resources</h2>
+        <p>Visit <a href="https://bihuapass.com">bihuapass.com</a> for full API documentation, interactive examples, and developer support.</p>
+    </div>
+
+    <div class="footer">
+        <p>OpenORM Documentation &middot; <a href="https://bihuapass.com">bihuapass.com</a></p>
+    </div>
+</body>
+</html>
